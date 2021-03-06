@@ -6,6 +6,7 @@ using namespace std;
 
  string conceito(float n){
     string i;
+
     if (n >= 9.0 && n <= 10.0){
         i = "A";
     }
@@ -21,9 +22,10 @@ using namespace std;
     else if(n < 4.0){
         i = "E";
     }
-    else{-
-        i = "Nota Invalida";
+    else{
+        - i = "Nota Invalida";
     }
+
     return i;
 }
 
@@ -42,8 +44,10 @@ string conceito(float n1, float n2, float n3){
 
     return i; 
 }
+
 int main () {
     float   n1 = 0,n2 = 0,n3 = 0;
+    
     cout << "     Media e conceito final \n";
     cout << "Digite a primeira nota de tres notas: ";
     cin >> n1;
